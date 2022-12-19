@@ -1,0 +1,157 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.botmoffer
+{
+    width: auto;
+    height: 30px;
+}
+.svglogo
+{
+    width: 95px;
+    height: 40px;
+    /*position: relative;
+    left: 33px; */
+}
+@media screen and (min-width: 920px)
+{
+.navbarspacing
+     { 
+        position: relative;
+        left: 70px;
+    }
+  }
+  @media screen and (min-width: 920px)
+  {
+  .navbarspacingli
+       { 
+          position: relative;
+          top: 6px;
+      }
+    }
+    @media screen and (max-width: 960px)
+    {
+    body
+         { 
+            margin: auto;
+        }
+      }
+  .giftsvg
+  {
+      width: 38px;
+      height: 38px;
+      position: relative;
+      bottom: 8px;
+  }
+  .searchsvg
+{
+    width: 18px;
+    height: 19px;
+    position: relative;
+}
+.profilesvg
+{
+    width: 18px;
+    height: 19px;
+    position: relative;
+}
+.bagicon
+{
+    width: 21px;
+    position: relative;
+}
+@media screen and (min-width: 920px)
+{
+     .seconderynavbarspacing
+     { 
+        position: relative;
+        bottom: 9px;
+        right: -60px;
+    }
+  }
+/* Countdown style */
+@media screen and (min-width: 1280px)
+{
+  .timerele
+  {
+      display: inline-block;
+      font-size: 15px;
+      list-style-type: none;
+      padding: 4px;
+      text-transform: uppercase;
+      position: relative;
+      right: 138px;
+  }
+  .colortime
+  {
+      color: #C24352;
+  }
+  .timerelation
+  {
+      float: right;
+      display: flex;
+      position: relative;
+      width: auto;
+      height: auto;
+      right: 235px;
+      top: 1px;
+  
+  }
+  .countdowntimer
+{
+    background-color: #F9ECE5;
+    width: auto;
+    height: 33px;
+}
+}
+@media screen and (max-width: 1279px)
+{
+    .countdowntimer
+    {
+        display: none;
+    }
+}
+/*@media screen and (min-width: 1279px)
+{*/
+    .btncar
+    {
+    position: absolute;
+    top: 0;
+    height: 10%;
+    top: 59%;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 3%;
+    color: #fff;
+    text-align: center;
+    opacity: .8;
+    background: black;
+    transition: opacity .15s ease;
+    }
+/*}*/
+.opacvisible
+{
+    background-color: black;
+    opacity: 0.7;
+    width: 100%;
+    left: auto;
+    right: auto;
+    height: 23%;
+}
+.headingcontainer
+{
+    margin-top: 33px;
+    text-align: center;
+    font-family: "Abhaya libre"; 
+    color:#B39d6f;
+}
+.slidenumber
+{
+    display: flex;
+}
